@@ -1,7 +1,3 @@
-function factorial(num) {
-    if (num < 2) return 1;
-    return num * factorial(num - 1);
-  }
 /*
 
   Make a function that computes a factorial recursively.
@@ -14,6 +10,11 @@ function factorial(num) {
   factorial(2) = 2
   factorial(3) = 6
 */
+
+function factorial(num) {
+    if (num < 2) return 1;
+    return num * factorial(num - 1);
+  }
 
 // unit tests
 // do not modify the below code
